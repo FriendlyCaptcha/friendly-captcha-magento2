@@ -21,5 +21,10 @@
         </arguments>
       </block>
     </referenceContainer>
+    <referenceContainer name="before.body.end">
+      <block class="Magento\Framework\View\Element\Template"
+        template="IMI_FriendlyCaptcha::imi_friendly_captcha_js.phtml" name="friendly_captcha_js"
+        ifconfig="imi_friendly_captcha/frontend/enabled"/>
+    </referenceContainer>
   </body>
 </page>
